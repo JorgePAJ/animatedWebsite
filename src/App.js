@@ -1,7 +1,13 @@
+import Experience from "./components/Experience";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div className="">
-      <h1>Hello world!</h1>
+    <div className="App text-white overflow-hidden">
+      <Header />
+      <Hero />
+      <Experience />
     </div>
   );
 }
